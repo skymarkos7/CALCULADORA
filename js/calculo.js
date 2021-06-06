@@ -180,7 +180,7 @@ function igual(){
 
 
 
-function mais(){
+function somar(){
 	op = "+";		
 
 	if (mostra==0) {
@@ -198,7 +198,7 @@ function mais(){
 
 
 
-function menos(){
+function subtrair(){
 	op = "-";
 	if (mostra==0) {
 		n1 = nr;
@@ -211,7 +211,7 @@ function menos(){
 }
 
 
-function vezes(){
+function multiplicar(){
 	op = "x";
 	if (mostra==0) {
 		n1 = nr;
