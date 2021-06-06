@@ -1,252 +1,241 @@
 
-var n1=0;
-var n2=0;
-var nr=0;
-var nl=0;
-var ng=0;
-var op=0;
-var nt=0;
-var mostra=0;
-var ig=0;
-//var geral=['0'];
+var n1 = 0;
+var n2 = 0;
+var nr = 0;
+var Ndigualitado = 0;
+var ng = 0;
+var op = 0;
+var nt = 0;
+var mostrador = 0;
+var igual = 0;
 
 
+function num0() {
+	Ndigualitado = 0;
 
-function num0(){
-	nl = 0;
-
-	if (mostra===0) {
-		mostra="0"
-		document.getElementById('visor').innerHTML=mostra;
-	}else{	
-		mostra = mostra+"0";
-		document.getElementById('visor').innerHTML=mostra;
-	}  
+	if (mostrador === 0) {
+		mostrador = "0"
+		document.getElementById('visor').innerHTML = mostrador;
+	} else {
+		mostrador = mostrador + "0";
+		document.getElementById('visor').innerHTML = mostrador;
+	}
 }
 
+function num1() {
+	Ndigualitado = 1;
 
-function num1(){
-	nl = 1;
+	if (mostrador === 0) {
+		mostrador = "1"
+		document.getElementById('visor').innerHTML = mostrador;
+	} else {
+		mostrador = mostrador + "1";
+		document.getElementById('visor').innerHTML = mostrador;
+	}
+}
 
-	if (mostra===0) {
-		mostra="1"
-		document.getElementById('visor').innerHTML=mostra;
-	}else{
-		mostra = mostra+"1";
-		document.getElementById('visor').innerHTML=mostra;	
+function num2() {
+	Ndigualitado = 2;
+
+	if (mostrador === 0) {
+		mostrador = "2"
+		document.getElementById('visor').innerHTML = mostrador;
+	} else {
+		mostrador = mostrador + "2";
+		document.getElementById('visor').innerHTML = mostrador;
+	}
+}
+
+function num3() {
+	Ndigualitado = 3;
+	if (mostrador === 0) {
+		mostrador = "3"
+		document.getElementById('visor').innerHTML = mostrador;
+	} else {
+		mostrador = mostrador + "3";
+		document.getElementById('visor').innerHTML = mostrador;
 	}
 }
 
 
-function num2(){
-	nl = 2;
-
-	if (mostra===0) {
-		mostra="2"
-		document.getElementById('visor').innerHTML=mostra;
-	}else{	
-		mostra = mostra+"2";
-		document.getElementById('visor').innerHTML=mostra;
+function num4() {
+	Ndigualitado = 4;
+	if (mostrador === 0) {
+		mostrador = "4"
+		document.getElementById('visor').innerHTML = mostrador;
+	} else {
+		mostrador = mostrador + "4";
+		document.getElementById('visor').innerHTML = mostrador;
 	}
 }
 
 
-
-function num3(){
-	nl = 3;
-	if (mostra===0) {
-		mostra="3"
-		document.getElementById('visor').innerHTML=mostra;
-	}else{	
-		mostra = mostra+"3";
-		document.getElementById('visor').innerHTML=mostra;
-	}	    
-}
-
-
-
-function num4(){
-	nl = 4;	
-	if (mostra===0) {
-		mostra="4"
-		document.getElementById('visor').innerHTML=mostra;
-	}else{	
-		mostra = mostra+"4";
-		document.getElementById('visor').innerHTML=mostra;
-	}	
-}
-
-
-
-function num5(){
-	nl = 5;
-	if (mostra===0) {
-		mostra="5"
-		document.getElementById('visor').innerHTML=mostra;
-	}else{	
-		mostra = mostra+"5";
-		document.getElementById('visor').innerHTML=mostra;
+function num5() {
+	Ndigualitado = 5;
+	if (mostrador === 0) {
+		mostrador = "5"
+		document.getElementById('visor').innerHTML = mostrador;
+	} else {
+		mostrador = mostrador + "5";
+		document.getElementById('visor').innerHTML = mostrador;
 	}
 }
 
 
-
-function num6(){
-	nl = 6;
-	if (mostra===0) {
-		mostra="6"
-		document.getElementById('visor').innerHTML=mostra;
-	}else{	
-		mostra = mostra+"6";
-		document.getElementById('visor').innerHTML=mostra;
+function num6() {
+	Ndigualitado = 6;
+	if (mostrador === 0) {
+		mostrador = "6"
+		document.getElementById('visor').innerHTML = mostrador;
+	} else {
+		mostrador = mostrador + "6";
+		document.getElementById('visor').innerHTML = mostrador;
 	}
 }
 
 
-
-function num7(){
-	nl = 7;
-	if (mostra===0) {
-		mostra="7"
-		document.getElementById('visor').innerHTML=mostra;
-	}else{	
-		mostra = mostra+"7";
-		document.getElementById('visor').innerHTML=mostra;
+function num7() {
+	Ndigualitado = 7;
+	if (mostrador === 0) {
+		mostrador = "7"
+		document.getElementById('visor').innerHTML = mostrador;
+	} else {
+		mostrador = mostrador + "7";
+		document.getElementById('visor').innerHTML = mostrador;
 	}
 }
 
 
-
-function num8(){
-	nl = 8;
-	if (mostra===0) {
-		mostra="8"
-		document.getElementById('visor').innerHTML=mostra;
-	}else{	
-		mostra = mostra+"8";
-		document.getElementById('visor').innerHTML=mostra;
+function num8() {
+	Ndigualitado = 8;
+	if (mostrador === 0) {
+		mostrador = "8"
+		document.getElementById('visor').innerHTML = mostrador;
+	} else {
+		mostrador = mostrador + "8";
+		document.getElementById('visor').innerHTML = mostrador;
 	}
 }
 
 
-
-function num9(){
-
-	//	var adicionar = geral.push("9");;
-	//	document.getElementById('span').innerHTML=geral;
-
-
-	if (mostra===0) {
-		mostra="9"
-		document.getElementById('visor').innerHTML=mostra;
-	}else{	
-		mostra = mostra+"9";
-		document.getElementById('visor').innerHTML=mostra;
+function num9() {
+	Ndigualitado = 9;
+	if (mostrador === 0) {
+		mostrador = "9"
+		document.getElementById('visor').innerHTML = mostrador;
+	} else {
+		mostrador = mostrador + "9";
+		document.getElementById('visor').innerHTML = mostrador;
 	}
 }
-
 
 
 //================  operações  ==========================
 
-function igual(){
-		ig = 0;		
-	if (op=="+") {
-		n2 = parseInt(mostra);
-		nr = n1+n2;
-		document.getElementById('visor').innerHTML=nr;
-		mostra = 0;
+function igualual() {
+	igual = 0;
+	if (op == "+") {
+		n2 = parseInt(mostrador);
+		nr = n1 + n2;
+		document.getElementById('visor').innerHTML = nr;
+		mostrador = 0;
 	}
-	if (op=="-") {
-		n2 = Number(mostra);
-		nr = n1-n2;
-		document.getElementById('visor').innerHTML=nr;
-		mostra = 0;
+	if (op == "-") {
+		n2 = Number(mostrador);
+		nr = n1 - n2;
+		document.getElementById('visor').innerHTML = nr;
+		mostrador = 0;
 	}
-	if (op=="x") {
-		n2 = Number(mostra);
-		nr = n1*n2;
-		document.getElementById('visor').innerHTML=nr;
-		mostra = 0;
+	if (op == "x") {
+		n2 = Number(mostrador);
+		nr = n1 * n2;
+		document.getElementById('visor').innerHTML = nr;
+		mostrador = 0;
 	}
-	if (op=="/") {
-		n2 = Number(mostra);
-		nr = n1/n2;
-		document.getElementById('visor').innerHTML=nr;
-		mostra = 0;
+	if (op == "/") {
+		n2 = Number(mostrador);
+		nr = n1 / n2;
+		document.getElementById('visor').innerHTML = nr;
+		mostrador = 0;
 	}
 }
 
 
 
+function somar() {
+	op = "+";
 
-function somar(){
-	op = "+";		
-
-	if (mostra==0) {
+	
+	if (mostrador == 0) {
 		n1 = nr;
-	}else{
-		n1 = parseInt(mostra);
-		mostra = mostra+"+";
-		document.getElementById('visor').innerHTML=mostra;
-		nr = parseInt(mostra);
-		mostra=0;	
+	} else {
+		n1 = parseInt(mostrador);
+		mostrador = mostrador + "+";
+		document.getElementById('visor').innerHTML = mostrador;
+		nr = parseInt(mostrador);
+		mostradorPessistente = mostrador;
+		mostrador = 0;
 	}
 
 }
 
 
-
-
-function subtrair(){
+function subtrair() {
 	op = "-";
-	if (mostra==0) {
+
+	if (mostrador == 0) {
 		n1 = nr;
-	}else{
-	n1 = Number(mostra);
-	mostra = mostra+"-";
-	document.getElementById('visor').innerHTML=mostra;	
-	mostra=0;
+	} else {
+		n1 = Number(mostrador);
+		mostrador = mostrador + "-";
+		document.getElementById('visor').innerHTML = mostrador;
+		mostradorPessistente = mostrador;
+		mostrador = 0;
 	}
 }
 
 
-function multiplicar(){
+function multiplicar() {
 	op = "x";
-	if (mostra==0) {
+
+	if (mostrador == 0) {
 		n1 = nr;
-	}else{
-	n1 = Number(mostra);
-	mostra = mostra+"x";
-	document.getElementById('visor').innerHTML=mostra;	
-	mostra=0;
+	} else {
+		n1 = Number(mostrador);
+		mostrador = mostrador + "x";
+		document.getElementById('visor').innerHTML = mostrador;
+		mostradorPessistente = mostrador;
+		mostrador = 0;
 	}
 }
 
 
-function dividir(){
+function dividir() {
 	op = "/";
-	if (mostra==0) {
+
+	if (mostrador == 0) {
 		n1 = nr;
-	}else{
-	n1 = Number(mostra);
-	mostra = mostra+"/";
-	document.getElementById('visor').innerHTML=mostra;	
-	mostra=0;
+	} else {
+		n1 = Number(mostrador);
+		mostrador = mostrador + "/";
+		document.getElementById('visor').innerHTML = mostrador;
+		mostradorPessistente = mostrador;
+		mostrador = 0;
 	}
 }
 
 
-function ac(){
-	n1=0;
- 	n2=0;
- 	nr=0;
- 	nl=0;
- 	ng=0;
- 	op=0;
- 	nt=0;
- 	mostra=0;
- 	ig=0;
-	document.getElementById('visor').innerHTML=mostra;
+function ac() {
+	n1 = 0;
+	n2 = 0;
+	nr = 0;	
+	ng = 0;
+	op = 0;
+	nt = 0;
+	mostrador = 0;
+	Ndigualitado = 0;
+	igual = 0;
+	mostradorPessistente = 0;
+	document.getElementById('visor').innerHTML = mostrador;
 }
 
