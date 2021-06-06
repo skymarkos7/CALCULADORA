@@ -1,5 +1,6 @@
 
 #borda{
+	margin: auto;
 	border: 2px solid black;
 	width: 310px;
 	height: 410px;
