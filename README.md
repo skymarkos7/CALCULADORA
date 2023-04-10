@@ -1,5 +1,11 @@
 # CALCULADORA
 
+## Versões
+[![v1.0](https://badgen.net/badge/version-legado/v1.0/blue?)](https://calculadora.lourenco.club/)
+
+<!-- [![v1.0](https://badgen.net/badge/version/v1.0/blue?icon=github)](https://calculadora.lourenco.club/) -->
+
+
 ## Apresentação
 Calculadora feita apenas com HTML/CSS e javaScript como forma de aplicar os conhecimentos, enquanto aprendia a liguagem JavaScript em 2017.
 
