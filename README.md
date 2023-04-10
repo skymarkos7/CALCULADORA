@@ -16,4 +16,4 @@ Este pequeno e singelo emaranhado de código JavaScript tem um peso sentimental 
 Author: Marcos Lourenço de Souza  
 month:july
 year: 2017  
-version: 2.1
+version: v1.0
