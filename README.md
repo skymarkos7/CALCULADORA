@@ -1,7 +1,7 @@
 # CALCULADORA
 
 ## Versões
-[![v1.0](https://badgen.net/badge/version-legado/v1.0/blue?)](https://calculadora.lourenco.club/)
+[![v1.0](https://badgen.net/badge/original-legado/v1.0/blue?)](https://calculadora.lourenco.club/)
 
 <!-- [![v1.0](https://badgen.net/badge/version/v1.0/blue?icon=github)](https://calculadora.lourenco.club/) -->
 
