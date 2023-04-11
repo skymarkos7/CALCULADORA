@@ -47,3 +47,17 @@
 	width: 94%;
 	height: 80%;
 }
+.div-img{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.img{
+	margin: auto;
+    display: block;
+    width: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
