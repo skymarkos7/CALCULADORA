@@ -9,100 +9,100 @@ let qtd = '';
  */
 document.addEventListener("keyup", function(event) {
     if (event.keyCode === 48) {
-		console.log("A tecla 0 foi pressionada");
+		//console.log("A tecla 0 foi pressionada");
 		valorAtual += '0';
 		document.getElementById('resultado').value = valorAtual;
-		console.log(valorAtual);     
+		//console.log(valorAtual);     
 
 		som.pause();
 		som.currentTime = 0;
 		som.play();
     }
     if (event.keyCode === 49) {
-        console.log("A tecla 1 foi pressionada");
+        // console.log("A tecla 1 foi pressionada");
         valorAtual += '1';
         document.getElementById('resultado').value = valorAtual;
-        console.log(valorAtual);
+        //console.log(valorAtual);
 
 	    som.pause();
 		som.currentTime = 0;
 		som.play();
     }
     if (event.keyCode === 50) {
-        console.log("A tecla 2 foi pressionada");
+        //console.log("A tecla 2 foi pressionada");
         valorAtual += '2';
         document.getElementById('resultado').value = valorAtual;
-        console.log(valorAtual);
+        //console.log(valorAtual);
 	  
 	    som.pause();
 		som.currentTime = 0;
 		som.play();
     }
     if (event.keyCode === 51) {
-        console.log("A tecla 3 foi pressionada");
+        //console.log("A tecla 3 foi pressionada");
         valorAtual += '3';
         document.getElementById('resultado').value = valorAtual;
-        console.log(valorAtual);
+        //console.log(valorAtual);
 
         som.pause();
 		som.currentTime = 0;
 		som.play();
     }
     if (event.keyCode === 52) {
-        console.log("A tecla 4 foi pressionada");
+        //console.log("A tecla 4 foi pressionada");
         valorAtual += '4';
         document.getElementById('resultado').value = valorAtual;
-        console.log(valorAtual);
+        //console.log(valorAtual);
 
         som.pause();
 		som.currentTime = 0;
 		som.play();
     }
     if (event.keyCode === 53) {
-        console.log("A tecla 5 foi pressionada");
+        //console.log("A tecla 5 foi pressionada");
         valorAtual += '5';
         document.getElementById('resultado').value = valorAtual;
-        console.log(valorAtual);
+        //console.log(valorAtual);
 
         som.pause();
 		som.currentTime = 0;
 		som.play();
     }
     if (event.keyCode === 54) {
-        console.log("A tecla 6 foi pressionada");
+        //console.log("A tecla 6 foi pressionada");
         valorAtual += '6';
         document.getElementById('resultado').value = valorAtual;
-        console.log(valorAtual);
+        //console.log(valorAtual);
 
         som.pause();
 		som.currentTime = 0;
 		som.play();
     }
     if (event.keyCode === 55) {
-        console.log("A tecla 7 foi pressionada");
+        //console.log("A tecla 7 foi pressionada");
         valorAtual += '7';
         document.getElementById('resultado').value = valorAtual;
-        console.log(valorAtual);
+        //console.log(valorAtual);
 
         som.pause();
 		som.currentTime = 0;
 		som.play();
     }
     if (event.keyCode === 56) {
-        console.log("A tecla 8 foi pressionada");
+        //console.log("A tecla 8 foi pressionada");
         valorAtual += '8';
         document.getElementById('resultado').value = valorAtual;
-        console.log(valorAtual);
+        //console.log(valorAtual);
 
         som.pause();
 		som.currentTime = 0;
 		som.play();
     }
     if (event.keyCode === 57) {
-        console.log("A tecla 9 foi pressionada");
+        //console.log("A tecla 9 foi pressionada");
         valorAtual += '9';
         document.getElementById('resultado').value = valorAtual;
-        console.log(valorAtual);
+        //console.log(valorAtual);
 
         som.pause();
 		som.currentTime = 0;
@@ -113,7 +113,7 @@ document.addEventListener("keyup", function(event) {
      * condicionais de teclado para operações  (+ - * /)
      */
     if (event.keyCode === 189) {
-        console.log("A tecla - foi pressionada");        
+        //console.log("A tecla - foi pressionada");        
         
         qtd ++;
         if(qtd>1){
@@ -128,7 +128,7 @@ document.addEventListener("keyup", function(event) {
 		som.play();
     }
     if (event.keyCode === 187) {
-        console.log("A tecla + foi pressionada");
+        //console.log("A tecla + foi pressionada");
         
         qtd ++;
         if(qtd>1){
@@ -143,7 +143,7 @@ document.addEventListener("keyup", function(event) {
 		som.play();
     }
     if (event.keyCode === 191) {
-        console.log("A tecla / foi pressionada");
+        //console.log("A tecla / foi pressionada");
         
         qtd ++;
         if(qtd>1){
@@ -158,7 +158,7 @@ document.addEventListener("keyup", function(event) {
 		som.play();
     }
     if (event.keyCode === 88) {
-        console.log("A tecla x foi pressionada");
+        //console.log("A tecla x foi pressionada");
         
         qtd ++;
         if(qtd>1){
@@ -173,7 +173,7 @@ document.addEventListener("keyup", function(event) {
 		som.play();
     }
     if (event.keyCode === 13) {
-        console.log("A tecla Enter foi pressionada");
+        //console.log("A tecla Enter foi pressionada");
 
         calcular();
         
@@ -182,7 +182,7 @@ document.addEventListener("keyup", function(event) {
 		som.play();
     }
     if (event.keyCode === 8 || event.keyCode === 27) {
-        console.log("A tecla Delete foi pressionada");
+        //console.log("A tecla Delete foi pressionada");
                 
         limpar();
         
@@ -191,7 +191,7 @@ document.addEventListener("keyup", function(event) {
 		som.play();
     }
     
-      console.log(event.keyCode);
+      //console.log(event.keyCode);
     
   });
 
@@ -201,7 +201,7 @@ document.addEventListener("keyup", function(event) {
 function adicionarValor(valor) {
     valorAtual += valor;
     document.getElementById('resultado').value = valorAtual;
-    console.log(valorAtual);
+    //console.log(valorAtual);
 }
 
 function adicionarOperador(novoOperador) {
@@ -212,7 +212,7 @@ function adicionarOperador(novoOperador) {
     operador = novoOperador;
     valorAnterior = valorAtual;
     valorAtual = '';
-    console.log(qtd);
+    //console.log(qtd);
 }
 
 function calcular() {
