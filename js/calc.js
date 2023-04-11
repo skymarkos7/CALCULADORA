@@ -3,10 +3,119 @@ let valorAnterior = '';
 let operador = '';
 let qtd = '';
 
-function verificarTecla(event) {
-    console.log('S');
-}
 
+/**
+ * Verificar tecla pressionada
+ */
+document.addEventListener("keyup", function(event) {
+    if (event.keyCode === 48) {
+		console.log("A tecla 0 foi pressionada");
+		valorAtual += '0';
+		//document.getElementById('resultado').value = valorAtual;
+		console.log(valorAtual);     
+
+		som.pause();
+		som.currentTime = 0;
+		som.play();
+    }
+    if (event.keyCode === 49) {
+        console.log("A tecla 1 foi pressionada");
+        valorAtual += '1';
+        //document.getElementById('resultado').value = valorAtual;
+        console.log(valorAtual);
+
+	  som.pause();
+		som.currentTime = 0;
+		som.play();
+    }
+    if (event.keyCode === 50) {
+        console.log("A tecla 2 foi pressionada");
+        valorAtual += '2';
+        //document.getElementById('resultado').value = valorAtual;
+        console.log(valorAtual);
+	  
+	    som.pause();
+		som.currentTime = 0;
+		som.play();
+    }
+    if (event.keyCode === 51) {
+        console.log("A tecla 3 foi pressionada");
+        valorAtual += '3';
+        //document.getElementById('resultado').value = valorAtual;
+        console.log(valorAtual);
+
+        som.pause();
+		som.currentTime = 0;
+		som.play();
+    }
+    if (event.keyCode === 52) {
+        console.log("A tecla 4 foi pressionada");
+        valorAtual += '4';
+        //document.getElementById('resultado').value = valorAtual;
+        console.log(valorAtual);
+
+        som.pause();
+		som.currentTime = 0;
+		som.play();
+    }
+    if (event.keyCode === 53) {
+        console.log("A tecla 5 foi pressionada");
+        valorAtual += '5';
+        //document.getElementById('resultado').value = valorAtual;
+        console.log(valorAtual);
+
+        som.pause();
+		som.currentTime = 0;
+		som.play();
+    }
+    if (event.keyCode === 54) {
+        console.log("A tecla 6 foi pressionada");
+        valorAtual += '6';
+        //document.getElementById('resultado').value = valorAtual;
+        console.log(valorAtual);
+
+        som.pause();
+		som.currentTime = 0;
+		som.play();
+    }
+    if (event.keyCode === 55) {
+        console.log("A tecla 7 foi pressionada");
+        valorAtual += '7';
+        //document.getElementById('resultado').value = valorAtual;
+        console.log(valorAtual);
+
+        som.pause();
+		som.currentTime = 0;
+		som.play();
+    }
+    if (event.keyCode === 56) {
+        console.log("A tecla 8 foi pressionada");
+        valorAtual += '8';
+        //document.getElementById('resultado').value = valorAtual;
+        console.log(valorAtual);
+
+        som.pause();
+		som.currentTime = 0;
+		som.play();
+    }
+    if (event.keyCode === 57) {
+        console.log("A tecla 9 foi pressionada");
+        valorAtual += '9';
+        //document.getElementById('resultado').value = valorAtual;
+        console.log(valorAtual);
+
+        som.pause();
+		som.currentTime = 0;
+		som.play();
+    }
+    
+     // console.log(event.keyCode);
+    
+  });
+
+/**
+ * Verificar botão clicado
+ */
 function adicionarValor(valor) {
     valorAtual += valor;
     document.getElementById('resultado').value = valorAtual;
