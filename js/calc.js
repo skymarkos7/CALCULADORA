@@ -3,6 +3,10 @@ let valorAnterior = '';
 let operador = '';
 let qtd = '';
 
+function verificarTecla(event) {
+    console.log('S');
+}
+
 function adicionarValor(valor) {
     valorAtual += valor;
     document.getElementById('resultado').value = valorAtual;

@@ -18,3 +18,28 @@
 .click{
 	cursor: pointer;
 }
+
+
+
+
+.menu { 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.menu > div { 
+    background-color:#09F; 
+    padding: 20px; 
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 30%;
+    font-weight: bold;
+    box-shadow: 0 3px 3px rgba(0,0,0,.4);
+}
+
+.menu > div:hover {
+    background-color: #0CC;
+    transform: scale(1.1); 
+    box-sizing: border-box; 
+    box-shadow: 1px 1px 1px 2px #333333;
+}

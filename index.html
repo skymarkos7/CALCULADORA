@@ -46,6 +46,30 @@
     <area target="" alt="display" id="resultado" class="click" value="44" title="display" href="input" coords="341,245,651,304" shape="rect">
 </map>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<audio id="som" src="https://www.soundjay.com/buttons/beep-08b.mp3" hidden></audio>
+
+<script>
+var som = document.getElementById("som");
+$("map area").click(function(){
+  som.pause();
+  som.currentTime = 0;
+  som.play();
+});
+
+
+
+
+document.addEventListener("keyup", function(event) {
+  if (event.keyCode === 48) {
+    console.log("A tecla 0 foi pressionada");
+  }
+  
+    console.log(event.keyCode);
+  
+  // ... e assim por diante para as outras teclas numéricas
+});
+</script>
 
 
 
