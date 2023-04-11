@@ -7,25 +7,22 @@
 	border-radius: 12px;
 	background-color: rgb(216, 216, 216);
 }
-#visor{	
+.show{
 	margin-top: 7%;
-	margin-left: 6%;
-	border: 1px solid black;
-	width: 88%;
-	height: 12%;
-	border-radius: 6px;
-	text-align: right;
-	color: #fff;
-	font-size: 50px;
-	background-color: rgb(154,154,154);
+    margin-left: 6%;
+	margin-bottom: 30px;
+    border: 1px solid black;
+    width: 88%;
+    height: 13%;
+    border-radius: 6px;
+    text-align: right;
+    color: #fff;
+    font-size: 50px;
+    background-color: rgb(154,154,154);
+    font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+
 }
-/*#visor-borda{
-	border: 1px solid black;
-	width: 80%;
-	height: 14%;
-	margin-left: 10%;
-	margin-top: 10%;
-} */
 .bt{	
 	width: 21%;
 	height: 21%;
@@ -37,10 +34,10 @@
 	font-size: 25px;
 	background-color: rgb(154,154,154);
 }
-#operador{
+.operador{
 	background-color: rgb(254,121,1);
 }
-#ac{
+.ac{
 	background-color: rgb(236,40,19);
 }
 #bts{

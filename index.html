@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Calculadora</title>
+	<title>Calculator</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<script src="js/calculo.js" type="text/javascript"></script>
-	<link rel="icon" type="image/jpg" href="img/calculadora.jpg" />
+	<script src="calculadora.js"></script>
+	<script src="js/calc.js" type="text/javascript"></script>
+	<link rel="icon" type="image/jpg" href="img/calculator.png" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-
 	<div id="borda">
-		<div id="visor-borda"><h1 id="visor">0</h1></div>
+		<input class="show" value="0" type="text" id="resultado" readonly>
 		<div id="bts">
-			<button onclick="ac()"           class="bt" id="ac"><br>AC</button>
-			<button onclick="number(0)"      class="bt"><br>0</button>
-			<button onclick="operation('/')" class="bt" id="operador"><br>/</button>
-			<button onclick="operation('x')" class="bt" id="operador" ><br>x</button>
-			<button onclick="number(7)"      class="bt"><br>7</button>
-			<button onclick="number(8)"      class="bt"><br>8</button>
-			<button onclick="number(9)"      class="bt"><br>9</button>
-			<button onclick="operation('-')" class="bt" id="operador" ><br>-</button>
-			<button onclick="number(4)"      class="bt"><br>4</button>
-			<button onclick="number(5)"      class="bt"><br>5</button>			
-			<button onclick="number(6)"      class="bt"><br>6</button>
-			<button onclick="operation('+')" class="bt" id="operador"><br>+</button>
-			<button onclick="number(1)"      class="bt"><br>1</button>
-			<button onclick="number(2)"      class="bt"><br>2</button>
-			<button onclick="number(3)"      class="bt"><br>3</button>			
-			<button onclick="operation('=')" class="bt" id="operador"><br>=</button>
-		</div>  
+			<button class="bt ac" onclick="limpar()">C</button>
+			<button class="bt" onclick="adicionarValor('0')">0</button>
+			<button class="bt operador" onclick="adicionarOperador('/')">/</button>
+			<button class="bt operador" onclick="adicionarOperador('*')">*</button>
+			<button class="bt" onclick="adicionarValor('7')">7</button>
+			<button class="bt" onclick="adicionarValor('8')">8</button>
+			<button class="bt" onclick="adicionarValor('9')">9</button>
+			<button class="bt operador" onclick="adicionarOperador('-')">-</button>
+			<button class="bt" onclick="adicionarValor('4')">4</button>
+			<button class="bt" onclick="adicionarValor('5')">5</button>
+			<button class="bt" onclick="adicionarValor('6')">6</button>
+			<button class="bt operador" onclick="adicionarOperador('+')">+</button>
+			<button class="bt" onclick="adicionarValor('1')">1</button>
+			<button class="bt" onclick="adicionarValor('2')">2</button>
+			<button class="bt" onclick="adicionarValor('3')">3</button>
+			<button class="bt operador" onclick="calcular()">=</button>
+		</div>
+	</div>
+</body>
 
-	</body>
-	</html>
+</html>
