@@ -14,6 +14,7 @@ Calculadora feita apenas com HTML/CSS e javaScript como forma de aplicar os conh
 ## Skills
 - Utilizado ImageMapster para mapear a imagem
 - Jquery com tags de audio, para reproduzir som nos botões
+- Uso de fonts especiais para aplicar mais realismo
 
 ## História
 Este pequeno e singelo emaranhado de código JavaScript tem um peso sentimental especial em minha memória, pois foi desenvolvido enquanto fazia companhia ao meu pai hospitalizado, pouco antes de falecer, passava meu tempo ocioso aprimorando e aplicando oque aprendia nas aulas de Js do site W3cschool.com

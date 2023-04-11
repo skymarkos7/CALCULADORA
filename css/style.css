@@ -30,3 +30,19 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+@font-face {
+	font-family: 'DS-DIGIB.TTF';
+	src: url(../assets/ds_digital/DS-DIGIB.TTF);
+}
+
+.display{
+	font-family: 'DS-DIGIB.TTF', sans-serif;
+	text-align: right;
+	left: 344px;
+    background-image: url(../img/fundo.png);
+    margin-top: -765px;
+    position: absolute;
+    width: 300px;
+    height: 59px;
+    font-size: 3.9rem;
+}
