@@ -6,6 +6,7 @@ let qtd = '';
 function adicionarValor(valor) {
     valorAtual += valor;
     document.getElementById('resultado').value = valorAtual;
+    console.log(valorAtual);
 }
 
 function adicionarOperador(novoOperador) {
