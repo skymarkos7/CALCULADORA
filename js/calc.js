@@ -11,7 +11,7 @@ document.addEventListener("keyup", function(event) {
     if (event.keyCode === 48) {
 		console.log("A tecla 0 foi pressionada");
 		valorAtual += '0';
-		//document.getElementById('resultado').value = valorAtual;
+		document.getElementById('resultado').value = valorAtual;
 		console.log(valorAtual);     
 
 		som.pause();
