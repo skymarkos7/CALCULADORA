@@ -1,6 +1,7 @@
 let valorAtual = '';
 let valorAnterior = '';
 let operador = '';
+let qtd = '';
 
 function adicionarValor(valor) {
     valorAtual += valor;
@@ -8,9 +9,14 @@ function adicionarValor(valor) {
 }
 
 function adicionarOperador(novoOperador) {
+    qtd ++;
+    if(qtd>1){
+        calcular();
+    }
     operador = novoOperador;
     valorAnterior = valorAtual;
     valorAtual = '';
+    console.log(qtd);
 }
 
 function calcular() {
@@ -39,11 +45,13 @@ function calcular() {
     valorAtual = resultado.toString();
     valorAnterior = '';
     operador = '';
+    qtd = '';
 }
 
 function limpar() {
     valorAtual = '';
     valorAnterior = '';
     operador = '';
-    document.getElementById('resultado').value = '';
+    qtd = '';
+    document.getElementById('resultado').value = '0';
 }

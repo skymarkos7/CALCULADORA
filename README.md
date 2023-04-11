@@ -2,7 +2,7 @@
 
 ## Versões
 [![v1.0](https://badgen.net/badge/projeto-original/v1.0/blue?)](https://calculadora.lourenco.club/) 
-[![v2.0](https://badgen.net/badge/legado-corrigido/v1.1/green?icon=sourcegraph)](https://calculadora.lourenco.club/)
+[![v2.0](https://badgen.net/badge/legado-otimizado/v1.1/green?icon=sourcegraph)](https://calculadora.lourenco.club/)
 
 
 ## Apresentação
