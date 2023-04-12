@@ -1,7 +1,9 @@
 # CALCULADORA
 
 ## Versões
-[![v1.0](https://badgen.net/badge/original-legado/v1.0/blue?)](https://calculadora.lourenco.club/)
+[![v1.0](https://badgen.net/badge/projeto-original/v1.0/blue?)](https://calculadora.lourenco.club/) 
+[![v1.1](https://badgen.net/badge/legado-otimizado/v1.1/green?icon=sourcegraph)](https://otimizado.calculadora.lourenco.club/)
+[![v2.0](https://badgen.net/badge/versão-realista/v2.0/green?)](https://realista.calculadora.lourenco.club/)
 
 <!-- [![v1.0](https://badgen.net/badge/version/v1.0/blue?icon=github)](https://calculadora.lourenco.club/) -->
 
